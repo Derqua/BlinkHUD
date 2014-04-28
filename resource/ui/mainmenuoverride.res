@@ -1457,7 +1457,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
-		"xpos"			"c185"
+		"xpos"			"c190"
 		"ypos"			"c-80"
 		"zpos"			"11"
 		"wide"			"130"
