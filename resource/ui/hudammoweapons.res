@@ -32,19 +32,6 @@
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"
 	}
-	"AmmoBG"
-	{
-		"ControlName" 	"ImagePanel"
-		"fieldName"		"AmmoBG"
-		"xpos"			"5"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"90"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
-	}
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
