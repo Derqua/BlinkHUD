@@ -245,14 +245,16 @@
 
 	CMainTargetID
 	{
+		"ControlName"  "ImagePanel"
 		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"126"
-		"wide"	 	"126"
+		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
+		"fillcolor"  "0 0 0 100"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
