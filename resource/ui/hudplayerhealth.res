@@ -5,11 +5,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-100"
-		"ypos"			"c50"
+		"xpos"			"c-173"
+		"ypos"			"c0"
 		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"150"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -20,8 +20,8 @@
 	{
 		"ControlName" 	"ImagePanel"
 		"fieldName"		"HealthBG"
-		"xpos"			"10"
-		"ypos"			"0"
+		"xpos"			"63"
+		"ypos"			"50"
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"50"
@@ -29,6 +29,22 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 	}
+	"PlayerStatusHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"53"
+		"ypos"			"50"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"HyperspaceBold40"
+		"fgcolor"		"White"
+	}	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -70,22 +86,7 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthValue"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"HyperspaceBold40"
-		"fgcolor"		"White"
-	}								
+								
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -107,7 +108,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"117"
-		"xpos_minmode"	"102"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -122,8 +122,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -138,8 +137,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"

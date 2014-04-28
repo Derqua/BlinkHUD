@@ -18,6 +18,12 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		//Custom Colors
+		
+		"Menu" "235 235 235 255"
+		"MenuHover" "252 53 86 255"
+		"MenuClicked" "235 235 20 255"
+	
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
