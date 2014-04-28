@@ -63,7 +63,6 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 	}
-	
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"

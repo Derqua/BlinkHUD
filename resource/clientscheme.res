@@ -2403,7 +2403,7 @@ Scheme
 
 		// Custom HUD Fonts
 		
-		// Regular
+		// Major
 		
 		HyperspaceFont12
 		{
@@ -2494,6 +2494,54 @@ Scheme
 			"1"
 			{
 				"name"		"Hyperspace Bold"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		
+		// Minor
+		
+		SansationFont12
+		{
+			"1"
+			{
+				"name"		"Sansation Regular"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		SansationFont16
+		{
+			"1"
+			{
+				"name"		"Sansation Regular"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		SansationFont24
+		{
+			"1"
+			{
+				"name"		"Sansation Regular"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		SansationFont32
+		{
+			"1"
+			{
+				"name"		"Sansation Regular"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		SansationFont40
+		{
+			"1"
+			{
+				"name"		"Sansation Regular"
 				"tall"		"40"
 				"antialias" "1"
 			}
@@ -4426,6 +4474,16 @@ Scheme
 		{
 			"font" "resource/fonts/Hyperspace_Bold_Italic.ttf"
 			"name" "Hyperspace Italic"
+		}
+		"11"
+		{
+			"font" "resource/fonts/Sansation_Regular.ttf"
+			"name" "Sansation Regular"
+		}
+		"12"
+		{
+			"font" "resource/fonts/Sansation_Light.ttf"
+			"name" "Sansation Light"
 		}
 	}
 }
