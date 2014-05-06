@@ -17,7 +17,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c26"
-		"ypos"	"c50"
+		"ypos"	"c60"
 		"wide"	"100"
 		"tall"	"50"
 	}
@@ -75,7 +75,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c26"
-		"ypos"	"c50"
+		"ypos"	"c60"
 		"wide"	"100"
 		"tall"	"50"
 	}
@@ -85,18 +85,13 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-110"
+		"ypos"			"c115"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
+		"wide"			"231"
 		"tall"			"8"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"0 0 0 100"
 	}	
 
 	HudBowCharge
@@ -194,7 +189,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-40"
-		"ypos"					"c55"
+		"ypos"					"c65"
 		"wide"					"116"
 		"tall"  				"50"
 		"visible" 				"1"
@@ -1015,13 +1010,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
+		"xpos"			"c-14"
+		"ypos"			"c65"
+		"wide"			"50"
 		"tall"			"50"
 	}	
 

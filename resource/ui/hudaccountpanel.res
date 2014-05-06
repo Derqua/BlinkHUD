@@ -11,6 +11,20 @@
 		"delta_item_font"		"HudFontMedium"
 	}
 	
+	"MetalBG"
+	{
+		"ControlName" 	"ImagePanel"
+		"fieldName"		"MetalBG"
+		"xpos"			"17"
+		"ypos"			"5"
+		"zpos"			"-1"
+		"wide"			"47"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
+	}
+	
 	"AccountBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -50,19 +64,7 @@
 		"iconColor"		"ProgressOffWhite"
 	}
 	
-	"MetalBG"
-	{
-		"ControlName" 	"ImagePanel"
-		"fieldName"		"MetalBG"
-		"xpos"			"17"
-		"ypos"			"5"
-		"zpos"			"-1"
-		"wide"			"47"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
-	}
+	
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"
