@@ -248,7 +248,6 @@
 		"ypos"		"126"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"fillcolor"  "0 0 0 100"
 		"priority"	"40"
 		"priority_lodef"	"5"
@@ -266,10 +265,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"126"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -283,10 +281,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"126"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"35"
 
 		if_vr
@@ -1010,9 +1007,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-14"
+		"xpos"			"c-30"
 		"ypos"			"c65"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"50"
 	}	
 
